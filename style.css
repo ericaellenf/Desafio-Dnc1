@@ -1,0 +1,140 @@
+/*CORPO DO PROJETO*/
+*{
+    background-color: #C07212;
+    margin: 0 auto;
+    font-family: 'inter';
+    padding:0px
+    
+}
+/*INÍCIO DA PÁGINA*/
+
+#title{
+    margin-left: 62px;
+    margin-top: 200px;
+    color: #f9f9f9;
+}
+#Parag{
+    margin-left: 62px;
+    margin-top: 20px;
+  padding-bottom: 149px;
+    color: #f9f9f9;
+
+}
+
+/*MENU INFORMACIONAL(FEITOS DA EMPRESA*/
+
+#menuinformacional{
+   margin-top: 100px;
+ background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow: column;
+   
+}
+.mi{
+    background-color: #f9f9f9;
+    color: #C07212;
+    margin: 50px;
+    margin-top: 96px;
+    margin-left: 171;
+    margin-right: 64;
+    margin-bottom: 66px
+
+}
+#numeros{
+    font-size: 80px;
+    font-style: bolder;
+    background-color: #f9f9f9;
+}
+#textos{
+    font-size: 5%;
+    line-height: 28px;
+}
+
+/*INFO FOTO/TEXTO*/
+
+main{
+    display: flex;
+    flex-direction: row;
+    background-color: #303030;
+    padding-bottom: 40px;
+}
+img{
+    padding-top: 80px;
+    background-color: #303030;
+    padding-bottom: 437px;
+}
+.div{
+    padding-top: 380px;
+    padding-left: 53px;
+    padding-bottom: 616;
+    background: #303030;
+    color: #f9f9f9;
+}
+#main1{
+    padding-top: 410px;
+    background-color: #303030;
+    font-size: 27px;
+}
+#main2{
+    padding-top: 15px;
+    padding-bottom: 570px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*FORMULÁRIO*/
+
+#textfor{
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #C07212;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+}
+.form{
+    background-color: #f9f9f9;
+    color: #C07212;
+
+}
+form{
+    display: flex;
+ flex-direction: column;
+}
+#envio{
+    width: 12%;
+    height: 38px;
+    color: #f9f9f9;
+    background-color: #C07212;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    font-weight:bold
+
+}
+#envio:hover{
+    background-color: #d98e33;
+    color:#f9f9f9;
+    transform: translateY(-8px);
+    box-shadow: 0px 4px 6px; color: #504e4ea0;
+    transition-duration: 0.6s;
+
+}
+
+#formp{
+    background: #FFFFFF;
+    color: #C07212;
+    height: 30px;  
+    border-radius: 5px;
+    border: none;
+    padding-bottom: 12px;
+    padding: 10px;
+    width: 20%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+input{
+    margin-bottom: 20px;
+} 
+
